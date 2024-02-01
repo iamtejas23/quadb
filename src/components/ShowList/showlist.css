@@ -1,0 +1,47 @@
+
+
+.show-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .show-card {
+    /* border: 1px solid #ddd; */
+    background-color: #272525;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #ccc;
+  }
+  
+  .show-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .show-details {
+    padding: 10px;
+  }
+  
+  .show-details h2 {
+    margin-top: 0;
+  }
+  
+  .show-details p {
+    margin: 5px 0;
+  }
+  
+  .btn{
+    background-color: #FFFFFF14;
+    color: #5799EF;
+    border: none;
+    padding: 10px 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    .btn:hover{
+        background-color: #FFFFFF1A;
+    }

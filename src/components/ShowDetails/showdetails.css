@@ -1,0 +1,35 @@
+
+
+.show-details-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: whitesmoke;
+  }
+  
+  .show-details-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .show-details-container p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .show-details-container {
+      padding: 10px;
+    }
+  
+    .show-details-container h1 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  
+    .show-details-container p {
+      font-size: 14px;
+    }
+  }
+  
