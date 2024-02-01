@@ -1,4 +1,19 @@
+.homeapp h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
 
+
+.homeapp h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #9b9b9b;
+    text-align: center;
+    
+}
 
 .show-container {
     display: grid;
